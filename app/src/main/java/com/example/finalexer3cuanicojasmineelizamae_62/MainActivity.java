@@ -7,8 +7,8 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.tasktracker.adapters.TaskAdapter;
-import com.example.tasktracker.models.Task;
+import com.example.finalexer3cuanicojasmineelizamae_62.TaskAdapter;
+import com.example.finalexer3cuanicojasmineelizamae_62.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         taskList = new ArrayList<>();
+        taskList.add(new Task("Buy Groceries", "Milk, Bread, and Eggs"));
+        taskList.add(new Task("Exercise", "Go for a 30-minute run"));
+        taskList.add(new Task("Read a Book", "Read 2 chapters of the new novel"));
         setupRecyclerView();
 
         FloatingActionButton fabAdd = findViewById(R.id.fabAddEvent);

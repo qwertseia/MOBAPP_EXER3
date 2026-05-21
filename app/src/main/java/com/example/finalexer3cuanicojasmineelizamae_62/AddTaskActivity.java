@@ -6,7 +6,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.tasktracker.models.Task;
+import com.example.finalexer3cuanicojasmineelizamae_62.Task;
 
 public class AddTaskActivity extends AppCompatActivity {
 

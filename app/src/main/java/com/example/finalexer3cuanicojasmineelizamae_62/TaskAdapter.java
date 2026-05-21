@@ -8,8 +8,8 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.tasktracker.R;
-import com.example.tasktracker.models.Task;
+import com.example.finalexer3cuanicojasmineelizamae_62.R;
+import com.example.finalexer3cuanicojasmineelizamae_62.Task;
 import java.util.List;
 
 public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder> {
